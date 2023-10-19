@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --common-radius: 7px;
+  }
