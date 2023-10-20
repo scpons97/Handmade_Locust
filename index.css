@@ -1,10 +1,29 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  :root {
-    --primary-color: #fce138;
-    --secondary-color: #024e76;
-    --common-radius: 7px;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --common-radius: 7px;
+}
+img {
+  width: 100px;
+  /* height: 100px; */
+}
+body {
+  position: relative;
+  /* background-image: url("./images/hydrangeasyaaaay.jpg");
+  background-size:cover; */
+}
+main {
+  margin: 150px 0px 150px 100px;
+}
+.backgroundimg {
+filter: blur(10px);
+width: 100%;
+position: absolute;
+z-index: -1;
+top: -150px;
+}
