@@ -12,17 +12,12 @@ body {
   position: relative;
   background-color: #e0e0e0;
   height: 100vh;
-  /* background-image: url("./images/hydrangeasyaaaay.jpg");
-  background-size:cover; */
+  background-image: url("./images/hydrangeasyaaaay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px); /*THIS IS THE BLUR! IT WAS CRAZY!*/
 }
 
-/* .backgroundimg {
-filter: blur(10px);
-width: 100%;
-position: absolute;
-z-index: -1;
-top: -150px;
-} */
 /* x */
 /* Start of styles for nav and main */
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -41,17 +36,27 @@ top: -150px;
   display: flex;
 }
 main #galleria {
-width: 40%;
+  width: 40%;
 }
-main .image-div {
+main .content-img {
+  background-image: url("./images/hydrangeasyaaaay.jpg");
   width: 60%;
+  background-position: right;
 }
+/* LEFT OFF HERE! vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv */
+main .content-border-but-cool{
+  width: 80%;
+  height: 80%;
+  margin: 10% 10%;
+
+}
+
 main div img {
   width: 100px;
 }
 /* End of main style */
 /* ------------------------------------------------------ */
-  /* Start of nav style */
+/* Start of nav style */
 #the-important-stuff nav {
   background-color: #01596f;
   width: 80px;
